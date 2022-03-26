@@ -1,0 +1,226 @@
+/*-------------------- Inicio Login ----------------------*/
+.container-login{
+	width: 100%;
+	min-height: 100vh;
+}
+.container-header-login{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	background: white;
+	align-items: center;
+}
+.container-logo-login{
+	width: 140px;
+	margin-left: 10%;
+	margin-right: auto;
+}
+.container-logo-login>img{
+	width: 100%;
+}
+.container-button-crear-cuenta{
+	margin-right: 6%;
+	font-size: 1rem;
+}
+.container-button-crear-cuenta>a{
+	background: #FF40D7;
+	border-radius: 22px;
+	padding: 10px 24px;
+	color: white;
+	text-decoration: none;
+}
+.fondo-login{
+	background-image: url(./images/fondo-login.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+.container-formulario{
+	width: 100%;
+	/*min-height: 340px;*/
+	background: white;
+	border-radius: 22px;
+	padding: 50px;
+}
+.title-form{
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #828282;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.container-input{
+	width: 100%;
+}
+.container-pass{
+	position: relative;
+	width: 100%;
+}
+.container-pass>input{
+	padding-left: 40px;
+}
+.container-pass > i{
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	color: #ced4da
+}
+.container-pass > span{
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	color: #ced4da;
+	font-size:1.2rem;
+	cursor: pointer;
+}
+.icon-red{
+	color:#FF40D7 !important;
+}
+.options-login{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+}
+.label-login{
+	font-size: 0.7rem;
+	color: #ADADAD;
+}
+.recordar-contraseña{
+	margin-left: auto;
+	font-size: 0.6rem;
+	padding: 6px;
+}
+.recordar-contraseña>a{
+	text-align: right;
+	color: #FF40D7;
+	text-decoration: none;
+}
+.submit-login{
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+.submit-login>button{
+	background: #FF40D7;
+	border-radius: 22px;
+	padding: 10px 40px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.submit-login>button:hover{
+	color: white;
+}
+.container-formulario input[type="tel"]{
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	padding-left: 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn{
+		border-radius: 22px !important;
+    /*background: #FF40D7 !important;*/
+		font-weight: bold !important;
+		border: none!important;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container-pass .label,
+.container-pass .label-alert{
+	position: absolute;
+	font-size: 9px;
+	top: -8px;
+	left:20px;
+	background: #FFF;
+	padding: 2px;
+}
+
+.container-pass .label-alert{
+	color: #FF40D7;
+}
+
+.container-pass .label{
+	/*color: red;*/
+	z-index: 1000;
+}
+
+.right{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+.alert{
+	color: #FF40D7;
+	font-size: 10px;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.label-alert{
+	color: red;
+	font-size: 10px;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.pass-primary{
+	border: 1px solid #FF40D7 !important;
+}
+
+.pass-secondary{
+	/*border: 1px solid red !important;*/
+}
+
+.btn-link2{
+	padding: 10px 40px !important	;
+}
+
+.font-10{
+	font-size: 12px;
+	color: #ccc;
+}
+
+.container-formulario input[type="radio"]{
+	border: solid 1px #FF40D7;
+}
+
+.container-formulario input[type="radio"]:checked + label {
+    background-color:#bfb;
+    border-color: #4c4;
+}
+
+.container-formulario input::placeholder,
+.container-formulario select::placeholder{
+	color: #ccc;
+  font-size: 12px !important;
+}
+
+.container-formulario select{
+	color: #ccc;
+  font-size: 12px !important;
+}
+
+@media (max-width: 320px) {
+	.container-formulario {
+	    width: 290px;
+	    min-height: 340px;
+	}
+}
+
+/* --------------- Fin Login -----------------*/

@@ -1,0 +1,144 @@
+.btn-secondary{
+    background: transparent !important;
+    border: 1px solid #FF40D7;
+    color: #FF40D7 !important;
+    border-radius: 22px !important;
+    font-weight: bold !important;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    padding:.375rem .75rem !important;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.linkButtonBancoRosa,
+.linkButtonBancoRosa:link,
+.linkButtonBancoRosa:focus,
+.linkButtonBancoRosa:hover{
+    background: transparent !important;
+    border: 1px solid #FF40D7;
+    color: #FF40D7 !important;
+    border-radius: 22px !important;
+    font-weight: bold !important;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    padding:.56rem .75rem !important;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.border-card{
+    border-radius: 22px;
+    border-bottom: 18px solid #0D154D;
+}
+.estado-formularios{
+    font-size: 0.8rem;
+    color: #F3883A;
+    font-size: 0.6rem;
+}
+.OptionCard{
+    min-height: 48px;
+    min-width: 9rem;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #D3D3D3;
+    border-bottom: 4px solid #D3D3D3;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.OptionIndicator{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #D3D3D3;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.optionActive{
+    background: #0D154D;
+    color: white;
+    border-bottom: none;
+}
+.optionActive> .d-sm-block > .OptionIndicator{
+    background: white !important;
+    color: #0D154D !important;
+}
+.Advertencia{
+    width: 100%;
+    color: #FF40D7;
+    font-weight: bold;
+    font-size: 0.76rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Advertencia>i{
+    font-size: 1.4rem;
+}
+.provisional{
+    border-radius: 22px !important;
+    font-weight: bold !important;
+    border: none !important;
+    color: white;
+    text-decoration: none;
+    background: #FF40D7 !important;
+}
+.cambiar{
+    margin-left: auto;
+    color: #FF40D7 !important;
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+}
+.Importante{
+    font-size: 0.6rem;
+    text-align: justify;
+}
+.text-confirmation-tranfer{
+    margin-bottom: -16px;
+    font-size: 0.8rem;
+}
+.Inscrita{
+    color: green;
+}
+.table-trans-masiva{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 8px 20px;
+}
+/*.table-trans-masiva>thead>tr>th{
+    text-align: center;
+}*/
+.table-trans-masiva>tbody>tr>td{
+    color:#D3D3D3;
+    text-align: center;
+}
+.modal-content{
+    /*max-width: 660px !important;*/
+    min-height: 140px;
+    border-radius: 22px;
+    border-top: 18px solid #FF40D7;
+}
+.modal-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title-mensage{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.icon-mesage{
+    font-size: 4rem;
+    color: #FF40D7;
+}

@@ -1,0 +1,65 @@
+#sidebar{
+    background: #0D154D;
+    font-size: .82rem;
+    color: white;
+    min-height: 100vh;
+}
+.barra-superior{
+    width:100%;
+    background: white;
+    border-top: 1px solid #E8E8E9;
+    border-bottom: 3px solid #E8E8E9;
+    padding: 0;
+    margin: 0;
+}
+.image-perfil{
+    width: 50px;
+    margin: 10px 10px 10px 80px;
+}
+.image-perfil>img{
+    width: 100%;
+    border-radius: 50%;
+}
+.info-user{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+.Cuenta-pendiente{
+    color: #F3883A;
+    font-size: 0.7rem;
+}
+.Cuenta-pendiente2 {
+    color: #FF40D7;
+    font-size: 0.7rem;
+}
+.MyPerfil{
+    right: 0;
+    left: auto !important;
+    top:122% !important;
+}
+.container-notify{
+    position: relative;
+    margin-right: 10px;
+}
+.container-notify>i{
+    font-size: 1.4rem;
+}
+.count-notify{
+    position: absolute;
+    top: 4px;
+    right: 14px;
+    background: #FF40D7;
+    color: white;
+    font-size: .6rem;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+}
+.container-icon-salir{
+    border-left: 1px solid #E8E8E9;
+    padding-left: 10px;
+}
+.container-icon-salir>i{
+    font-size: 1.4rem;
+}

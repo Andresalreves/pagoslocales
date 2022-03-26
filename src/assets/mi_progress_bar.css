@@ -1,0 +1,19 @@
+.container_progress_bar{
+    width: 100%;
+    min-height: 26px;
+    border: 2px solid #FF40D7;
+    border-radius: 2px;
+    text-align: center;
+    color: #000E4D !important;
+    position:relative;
+}
+.porcentaje-bar{
+    position: relative;
+    z-index: 9;
+}
+.relleno-bar{
+    background:#FF40D7;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}

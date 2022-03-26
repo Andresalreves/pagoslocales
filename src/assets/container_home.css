@@ -1,0 +1,118 @@
+.Contenido-Home{
+    margin-top: 20px;
+    padding: 40px;
+}
+.title-home{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:000E4D;
+    padding-left: 20px;
+    border-left: 5px solid #FF40D7;
+    line-height: 1.1 !important;
+}
+.card-seguridad{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 14px;
+    padding: 20px;
+    position: relative;
+    height: 380px;
+    overflow-y: scroll;
+}
+.card-credit{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 14px;
+    padding: 20px;
+    position: relative;
+    min-height: 130px;
+}
+.title_tarjeta-home{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.cuenta-tarjeta-home{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+.saldo-mis-productos{
+    font-size: 0.7rem;
+    color: #FF40D7;
+    font-weight: bold;
+}
+.ver-detalle-home{
+    font-size: 0.5rem;
+}
+.container-ver-detalle-home{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: grey;
+}
+.bolsillos-icon{
+    font-size: 1.5rem;
+}
+.borde-rosa-credit-cart{
+    border-bottom: 10px solid #FF40D7;
+}
+.meta-card-home{
+    width: 100%;
+    font-size: 0.6rem;
+    color: grey;
+}
+.card-graficos{
+    background: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 14px;
+    max-height: 26rem;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.title-graphycs{
+    font-size: .7rem;
+    font-weight: bold;
+    display: flex;
+}
+.graphycs-dias{
+    font-size: 0.7rem;
+    color: grey;
+    margin-left: auto;
+}
+.resumen-transacciones{
+    display: flex;
+    margin-top: 20px;
+}
+.consepto-transaccion{
+    width: 60%;
+    line-height: 1rem;
+}
+.consepto-transaccion>b{
+    font-size: 0.9rem;
+}
+.consepto-transaccion>small{
+    font-size: 0.6rem;
+}
+.valor-transaccion{
+    width: 40%;
+    text-align: right;
+    font-size: 0.8rem;
+    padding-right: 10px;
+}
+.valor-transaccion>span{
+    font-weight: bold;
+}
+.debito{
+    color: red;
+}
+.footer-transacciones-home{
+    padding: 8px 30px 8px 30px;
+    background: #0D154D;
+    color: white;
+    margin: 30px -30px -30px -30px;
+    border-radius: 0px 0px 14px 14px;
+}
+.rosa-bolsillo {
+  background-color:#FF40D7;
+}
